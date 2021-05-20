@@ -60,6 +60,6 @@ if($user->id != null){
 }else{
     // Define código de resposta como: 404 Not Found
     http_response_code(404);
-    echo json_encode(array("message" => "not_found_user"));   
+    echo json_encode(array("message" => "not_found"));   
 }
 ?>
