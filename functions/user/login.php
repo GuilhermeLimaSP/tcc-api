@@ -35,9 +35,14 @@ $user->loginUser();
 if($user->id != null){
     if($user->pwd == $data_pwd){
         // Popula o array
-        $user_data = array(
+        $user_data = array( 
             "nome" => $user->name,
             "email" => $user->email,
+            "img" => $user->img,
+            "phone" => $user->phone,
+            "cep" => $user->cep,
+            "reports" => $user->reports,
+            "created_at" => $user->created_at,
             "message" => "sucess_login"
         );
 
@@ -52,6 +57,6 @@ if($user->id != null){
 }else{
     // Define código de resposta como: 404 Not Found
     http_response_code(404);
-    echo json_encode(array("message" => "not_found_user"));   
+    echo json_encode(array("message" => "not_found"));   
 }
 ?>

@@ -56,7 +56,8 @@ class Usuario{
 
     function loginUser(){
         // Construindo a query
-        $query = "SELECT * FROM user WHERE email = :email LIMIT 1";
+        $query = "SELECT *, (SELECT count(*) reports FROM animal_report ar WHERE ar.author_id = u.id) send_reports
+                            FROM user u WHERE email = :email LIMIT 1";
 
         // Preparando a query
         $stmt = $this->conn->prepare($query);
@@ -71,10 +72,12 @@ class Usuario{
         $this->id = $row['id'];
         $this->name = $row['name'];
         $this->email = $row['email'];
+        $this->img = $row['img'];
         $this->pwd = $row['pwd'];
         $this->phone = $row['phone']; 
         $this->cep = $row['cep']; 
         $this->created_at = $row['created_at']; 
+        $this->reports = $row['send_reports']; 
     }
 
     function IsAvailableEmail(){
