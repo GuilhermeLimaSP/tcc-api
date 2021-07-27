@@ -23,3 +23,7 @@ Migramos para Postman posteriormente para uma melhor documentação.<br>
 
 # Equipe
 <b>Guilherme Parnaíba:</b> Back-end e testes da API;<br>
+
+# Agradecimentos
+Repositório original: https://github.com/wagnerbarth/API_Project3MJA
+Agradeço ao professor <b>Wagner Barth</b> da ETEC JARDIM ANGELA por disponibilizar uma API base.
