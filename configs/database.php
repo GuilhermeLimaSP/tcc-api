@@ -4,9 +4,9 @@ date_default_timezone_set('America/Sao_Paulo');
 class Database{
     // Atributos de conexão
     private $host = "localhost";
-    private $db_name = "tcc";
+    private $db_name = "database";
     private $username = "root";
-    private $password = "lord@12";
+    private $password = "password";
     private $charset = "utf8";
     public $conn;
  
