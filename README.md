@@ -22,4 +22,4 @@ Migramos para Postman posteriormente para uma melhor documentação.<br>
 
 
 # Equipe
-<b>Guilherme Parnaíba</b> Back-end e testes da API;<br>
+<b>Guilherme Parnaíba:</b> Back-end e testes da API;<br>
