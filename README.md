@@ -17,7 +17,7 @@ A API contém 14 rotas que tem como objetivo:
 
 Foram usados os métodos HTTP:  GET, POST e PUT.<br>
 Usamos Insomnia no desenvolvimento e o mesmo para realizar testes.<br>
-Migramos para Postman posteriormente para uma melhor documentação.<br>
+Migramos para Postman posteriormente para uma melhor documentação.<br><br>
 <b>Documentação (outdated):  </b>https://documenter.getpostman.com/view/16154062/TzY7dtic#c5b58f8b-fc28-4607-afa6-40bc46a85cbe
 
 
